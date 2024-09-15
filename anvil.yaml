@@ -1,0 +1,18 @@
+allow_embedding: false
+correct_dependency_ids: {}
+dependencies: []
+metadata: {logo_img: 'asset:sassycom_lcon_1.png', title: Simplified Text To Speech}
+name: Clone of Audio Player Component
+native_deps: {head_html: ''}
+package_name: sassycom_audio_player
+runtime_options:
+  client_version: '3'
+  server_spec: {base: python310-standard}
+  server_version: python3-sandbox
+  version: 2
+services:
+- client_config: {}
+  server_config: {}
+  source: /runtime/services/tables.yml
+startup: {module: audio_player, type: form}
+startup_form: null
