@@ -2,7 +2,7 @@ allow_embedding: false
 correct_dependency_ids: {}
 dependencies: []
 metadata: {logo_img: 'asset:sassycom_lcon_1.png', title: Simplified Text To Speech}
-name: Bu_Audio Player Component (This)
+name: Audio Player (Custom Component)
 native_deps: {head_html: ''}
 package_name: sassycom_audio_player
 runtime_options:
